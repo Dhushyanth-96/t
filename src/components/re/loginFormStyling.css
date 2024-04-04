@@ -1,0 +1,57 @@
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 25%;
+}
+
+.login-form {
+  background-color: orange;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  text-align: center; /* Center align all content */
+}
+
+.login-heading {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.round-input {
+  border-radius: 20px; /* Make input fields round */
+  padding: 10px; /* Add padding */
+  border: none; /* Remove border */
+  outline: none; /* Remove default outline */
+}
+
+.login-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15px; /* Make button round */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #333;
+}
+
+.register-link {
+  margin-top: 20px; /* Add some space between login button and register link */
+}
+
+.register-link a {
+  color: black;
+  text-decoration: none; /* Remove underline */
+}
+
+.register-link a:hover {
+  color: blue;
+}

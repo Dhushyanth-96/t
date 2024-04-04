@@ -1,0 +1,50 @@
+.containerOne {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.left-section {
+  display: flex;
+  align-items: flex-start; /* Align items at the start of the cross axis */
+}
+
+.image-containerOne {
+  flex: 0 0 auto; /* Prevent image from growing */
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.image-containerOne img {
+  max-width: 100%;
+  height: auto;
+}
+
+.details-containerOne {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.prize-form-containerOne {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-containerOne {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.charges-containerOne {
+  margin-top: 10px;
+}

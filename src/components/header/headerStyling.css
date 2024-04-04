@@ -1,0 +1,83 @@
+.header {
+  background-color: #ff5600;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.navbar {
+  margin-top: -26px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: #fff; /* Changed link color to white */
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #ffcc00; /* Changed hover/active color to yellow */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%; /* Position dropdown below its container */
+  left: 0; /* Align dropdown with the left edge of its container */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.login-button1 {
+  background-color: #ff5600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; /* Make button round */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button1:hover {
+  background-color: #333;
+}
